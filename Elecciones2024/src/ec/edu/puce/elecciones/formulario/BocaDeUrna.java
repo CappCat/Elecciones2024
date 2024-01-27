@@ -142,7 +142,7 @@ public class BocaDeUrna extends JInternalFrame implements ActionListener {
 				panel.add(btnPrefecto);
 				x++;
 			}
-			if(x%5==0) {
+			if(x%5==0 && x!=0) {
 				x=0;
 				y++;
 			}
